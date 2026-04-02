@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+}
+
+header img {
+  width: 210px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin-left: 60px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.link-active {
+  text-decoration: underline;
+}
