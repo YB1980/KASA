@@ -3,14 +3,8 @@
   align-items: center;
   justify-content: center;
   height: 223px;
-
-  background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../assets/banner.png');
-
   background-size: cover;
   background-position: center;
-
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 25px;
   margin: 0 100px;

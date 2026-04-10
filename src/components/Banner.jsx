@@ -1,11 +1,11 @@
 import '../styles/Banner.css'
 
-function Banner() {
+function Banner({ imageUrl, title = '' }) {
   
   return (
     <>
-        <div className='banner'>
-          <h1>Chez vous, partout et ailleurs</h1>
+        <div className='banner' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${imageUrl})` }}>
+          {title && <h1>{title}</h1>}
         </div>
     </>
   )

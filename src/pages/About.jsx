@@ -2,6 +2,7 @@ import Banner from "../components/Banner"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Collapse from "../components/Collapse"
+import image from "../assets/bannerabout.png"
 
 
 function About() {
@@ -28,7 +29,7 @@ function About() {
   return (
     <>
       <Header />
-      <Banner />
+      <Banner imageUrl={image} />
 
       <div className="about">
         {data.map((item, index) => (

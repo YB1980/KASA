@@ -2,6 +2,7 @@ import Banner from "../components/Banner"
 import Card from "../components/Card"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
+import image from "../assets/banner.png"
 
 function Home() {
   
@@ -9,7 +10,7 @@ function Home() {
     <>
         <div>
             <Header />
-            <Banner />
+            <Banner imageUrl={image} title="Chez vous, partout et ailleurs" />
             <Card />
             <Footer />
         </div>   
