@@ -3,14 +3,15 @@ import logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 
 function Header() {
+  const getClassName = ({ isActive }) => isActive ? 'link-active' : ''
   
   return (
     <>
         <header>
           <img src={logo} alt='Logo de Kasa'></img>
           <nav>
-            <NavLink to='/' className={({isActive}) => (isActive ? 'link-active' : null)}>Accueil</NavLink>
-            <NavLink to='/about' className={({isActive}) => (isActive ? 'link-active' : null)}>A Propos</NavLink>
+            <NavLink to='/' className={getClassName}>Accueil</NavLink>
+            <NavLink to='/about' className={getClassName}>A Propos</NavLink>
           </nav>
         </header>
     </>

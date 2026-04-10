@@ -1,0 +1,51 @@
+.about h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.about {
+  width: 85%;
+  margin: auto;
+}
+
+.collapse {
+  margin: 40px 100px;
+}
+
+.collapse-header {
+  background-color: #ff6060;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 52px;
+  align-items: center;
+}
+
+.fa-solid {
+    font-size: 24px;
+}
+
+.collapse-content {
+  background-color: #f6f6f6;
+  padding: 15px 25px;
+  border-radius: 0 0 5px 5px;
+  margin-top: -3px;
+  line-height: 30px;
+}
+
+.arrow {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.arrow.open {
+  transform: rotate(-180deg);
+}
