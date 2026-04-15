@@ -29,7 +29,10 @@ function About() {
   return (
     <>
       <Header />
-      <Banner imageUrl={image} />
+      <Banner 
+  imageUrl={image} 
+  variant="banner-about"
+/>
 
       <div className="about">
         {data.map((item, index) => (

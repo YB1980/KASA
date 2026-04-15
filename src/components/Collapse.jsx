@@ -1,9 +1,9 @@
 import '../styles/Collapse.css'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 
 function Collapse({ title, content }) {
-
   const [isOpen, setIsOpen] = useState(false)
+  const contentRef = useRef(null)
 
   const toggle = () => {
     setIsOpen(!isOpen)
@@ -11,7 +11,6 @@ function Collapse({ title, content }) {
 
   return (
     <div className="collapse">
-
       <div className="collapse-header">
         <h3>{title}</h3>
 
@@ -21,12 +20,17 @@ function Collapse({ title, content }) {
         ></i>
       </div>
 
-      {isOpen && (
+      <div
+        ref={contentRef}
+        className="collapse-wrapper"
+        style={{
+          height: isOpen ? contentRef.current?.scrollHeight + 'px' : '0px'
+        }}
+      >
         <div className="collapse-content">
           <p>{content}</p>
         </div>
-      )}
-
+      </div>
     </div>
   )
 }
