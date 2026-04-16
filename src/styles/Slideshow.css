@@ -1,0 +1,43 @@
+.slideshow {
+  position: relative;
+  width: 86%;
+  margin: 0 auto;
+}
+
+.slide-image {
+  width: 100%;
+  border-radius: 25px;
+  height: 415px;
+  object-fit: cover;
+}
+
+.arrow-slideshow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.arrow-slideshow i {
+    font-size: 79px;
+}
+
+.arrow-slideshow.left {
+  left: 0px;
+}
+
+.arrow-slideshow.right {
+  right: 0px;
+}
+
+.counter {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 18px;
+}
