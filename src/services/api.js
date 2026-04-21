@@ -12,7 +12,7 @@ export const getProperties = async () => {
   return data
 }
 
-// 🔥 récupérer UNE propriété par id
+// Récupérer UNE propriété par id
 export const getPropertyById = async (id) => {
   const response = await fetch(`http://localhost:8080/api/properties/${id}`)
 

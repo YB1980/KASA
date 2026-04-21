@@ -1,0 +1,12 @@
+.star,
+.fa-star {
+  font-size: 20px;
+}
+
+.active {
+  color: #ff6060;
+}
+
+.inactive {
+  color: #E3E3E3;
+}
