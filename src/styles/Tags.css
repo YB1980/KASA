@@ -1,13 +1,14 @@
 .tags {
   display: flex;
   gap: 10px;
-  margin: 10px 0;
+  margin-top: 25px;
 }
 
 .tag {
   background-color: #ff6060;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 30px;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
 }

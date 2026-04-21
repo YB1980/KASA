@@ -1,0 +1,68 @@
+.property-container {
+  width: 86%;
+  margin: 20px auto;
+}
+
+.property-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.property-left h1 {
+  color: #ff6060;
+  font-size: 36px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.location {
+  margin: 5px 0 10px;
+  font-size: 18px;
+}
+
+.property-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.host p {
+  color: #ff6060;
+  text-align: right;
+  font-size: 18px;
+}
+
+.host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+}
+
+.property-bottom {
+  display: flex;
+  gap: 76px;
+}
+
+.property-bottom .collapse {
+  width: 50%;
+  margin: 20px 0 30px 0;
+}
+
+.collapse-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

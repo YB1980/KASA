@@ -7,6 +7,7 @@ import Header from "../components/Header"
 import Rating from '../components/Rating'
 import Tags from '../components/Tags'
 import Collapse from '../components/Collapse'
+import '../styles/Property.css'
 
 function Property() {
 
@@ -47,32 +48,48 @@ function Property() {
     <div>
         <Header />
         <Slideshow pictures={property.pictures} />
+      <div className="property-container">
+
+  {/* 🔥 TOP */}
+  <div className="property-top">
+
+    {/* GAUCHE */}
+    <div className="property-left">
       <h1>{property.title}</h1>
-<p>{property.location}</p>
+      <p className="location">{property.location}</p>
 
-<Tags tags={property.tags} />
+      <Tags tags={property.tags} />
+    </div>
 
-<div className="host-rating">
-  <div>
-    <p>{property.host.name}</p>
-    <img src={property.host.picture} alt={property.host.name} />
+    {/* DROITE */}
+    <div className="property-right">
+      <div className="host">
+        <p>{property.host.name}</p>
+        <img src={property.host.picture} alt={property.host.name} />
+      </div>
+
+      <Rating value={property.rating} />
+    </div>
+
   </div>
 
-  <Rating value={property.rating} />
+  {/* 🔥 BOTTOM */}
+  <div className="property-bottom">
+    <Collapse title="Description" content={property.description} />
+
+    <Collapse 
+      title="Équipements"
+      content={
+        <ul>
+          {property.equipments.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      }
+    />
+  </div>
+
 </div>
-
-<Collapse title="Description" content={property.description} />
-
-<Collapse 
-  title="Équipements" 
-  content={
-    <ul>
-      {property.equipments.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ul>
-  }
-/>
       <Footer />
     </div>
   )
