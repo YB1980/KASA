@@ -6,9 +6,10 @@
   background-size: cover;
   background-position: center;
   border-radius: 25px;
-  margin: 0 100px;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
+  width: 86%;
 }
 
 .banner::before {
@@ -35,4 +36,35 @@
   color: white;
   font-size: 48px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1023px) {
+  .banner {
+    height: 111px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  .banner::before {
+  border-radius: 10px;
+}
+  .banner h1 {
+  font-size: 32px;
+ }
+}
+
+@media (max-width : 767px) {
+  .banner h1 {
+    text-shadow: none;
+    font-size: 24px;
+  }
+  .banner-home {
+  box-shadow: none;
+}
+}
+
+@media (max-width : 424px) {
+  .banner h1 {
+    padding-left: 15px;
+    padding-right: 95px;
+}
 }

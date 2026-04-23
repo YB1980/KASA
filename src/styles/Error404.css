@@ -18,3 +18,34 @@
   color: black;
   margin: 40px 0 110px 0;
 }
+
+.error p {
+  text-align: center;
+}
+
+@media (max-width: 1023px) {
+  .number-error {
+  font-size: 144px;
+  }
+  .error {
+    font-size: 27px;
+  }
+  .error p{
+    width: 55%;
+  }
+  .error a {
+  font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .number-error {
+  font-size: 96px;
+  }
+  .error {
+    font-size: 18px;
+  }
+  .error a {
+  font-size: 14px;
+  }
+}
