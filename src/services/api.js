@@ -2,17 +2,15 @@
 export const getProperties = async () => {
   const response = await fetch('http://localhost:8080/api/properties')
 
-  // Vérifie si la requête a fonctionné
   if (!response.ok) {
     throw new Error('Erreur lors de la récupération des logements')
   }
 
-  // Transforme la réponse en JSON
   const data = await response.json()
   return data
 }
 
-// Récupérer UNE propriété par id
+// Fonction pour récupérer une propriété par id
 export const getPropertyById = async (id) => {
   const response = await fetch(`http://localhost:8080/api/properties/${id}`)
 

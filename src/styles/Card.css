@@ -48,19 +48,19 @@
     margin: 20px auto;
   }
   .card {
-  width: 320px;
-  height: 255px;
+    width: 320px;
+    height: 255px;
 }
 }
 
 @media (max-width: 767px) {
   .card {
-  width: 365.5px;
+    width: 365.5px;
 }
 }
 
 @media (max-width: 424px) {
   .card {
-  width: 322.5px;
+    width: 322.5px;
 }
 }

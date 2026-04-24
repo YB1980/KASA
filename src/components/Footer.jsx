@@ -7,7 +7,7 @@ function Footer() {
     <>
         <footer>
           <img src={logofooter} alt="Logo de Kasa" />
-          <p>@ 2020 Kasa. All rights reserved</p>
+          <p>@ 2020 Kasa. All <br /> rights reserved</p>
         </footer>
     </>
   )

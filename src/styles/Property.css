@@ -112,7 +112,7 @@
 }
 
 @media (max-width: 767px) {
-    .property-bottom .collapse h3 {
+  .property-bottom .collapse h3 {
     font-size: 13px;
   }
   .property-left h1 {

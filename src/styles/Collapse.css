@@ -1,12 +1,12 @@
 .about h3 {
-    font-weight: 700;
-    font-size: 24px;
-    margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
 }
 
 .about p {
-    font-size: 18px;
-    margin: 0;
+  font-size: 18px;
+  margin: 0;
 }
 
 .about {
@@ -30,7 +30,7 @@
 }
 
 .fa-solid {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .collapse-wrapper {
@@ -55,38 +55,38 @@
 }
 
 @media (max-width : 1023px) {
- .collapse-header {
-  height: 45px;
+  .collapse-header {
+    height: 45px;
  }
   .about h3 {
-  font-size: 16px;
+    font-size: 16px;
 }
-.fa-solid {
-  font-size: 18px;
+  .fa-solid {
+    font-size: 18px;
 }
-.collapse-content {
-  font-size: 15px;
-  padding: 10px 25px;
-  line-height: 25px;
+  .collapse-content {
+    font-size: 15px;
+    padding: 10px 25px;
+    line-height: 25px;
 }
 }
 
 @media (max-width : 767px) {
   .collapse-header {
-  padding: 0 20px;
-  height: 30px;
-  border-radius: 5px;
+    padding: 0 20px;
+    height: 30px;
+    border-radius: 5px;
 }
-.collapse {
-  margin: 20px 0px;
+  .collapse {
+    margin: 20px 0px;
 }
-.about h3 {
-  font-size: 13px;
+  .about h3 {
+    font-size: 13px;
 }
-.fa-solid {
-  font-size: 16px;
+  .fa-solid {
+    font-size: 16px;
 }
-.collapse-content {
-  font-size: 13px;
+  .collapse-content {
+    font-size: 13px;
 }
 }

@@ -22,7 +22,7 @@
 }
 
 .arrow-slideshow i {
-    font-size: 79px;
+  font-size: 79px;
 }
 
 .arrow-slideshow.left {
@@ -43,7 +43,7 @@
 }
 
 @media (max-width: 1023px) {
-    .arrow-slideshow i {
+  .arrow-slideshow i {
     font-size: 50px;
 }
   .counter {

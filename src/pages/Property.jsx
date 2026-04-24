@@ -50,10 +50,8 @@ function Property() {
         <Slideshow pictures={property.pictures} />
       <div className="property-container">
 
-  {/* 🔥 TOP */}
   <div className="property-top">
 
-    {/* GAUCHE */}
     <div className="property-left">
       <h1>{property.title}</h1>
       <p className="location">{property.location}</p>
@@ -61,7 +59,6 @@ function Property() {
       <Tags tags={property.tags} />
     </div>
 
-    {/* DROITE */}
     <div className="property-right">
       <div className="host">
         <p>{property.host.name}</p>
@@ -73,7 +70,6 @@ function Property() {
 
   </div>
 
-  {/* 🔥 BOTTOM */}
   <div className="property-bottom">
     <Collapse title="Description" content={property.description} />
 

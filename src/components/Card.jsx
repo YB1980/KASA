@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 import { getProperties } from '../services/api'
 
 function Card() {
-  // 1️⃣ On stocke les données dans un state
+  // On stocke les données dans un state
   const [properties, setProperties] = useState([]) 
   const [loading, setLoading] = useState(true) // pour le chargement
   const [error, setError] = useState(null)     // pour les erreurs
 
-  // 2️⃣ useEffect pour récupérer les données une fois au chargement
+  // useEffect pour récupérer les données une fois au chargement
   useEffect(() => {
 
     const fetchData = async () => {
@@ -27,11 +27,11 @@ function Card() {
 
   }, []) // [] => s'exécute une seule fois au montage du composant
 
-  // 3️⃣ Gestion de l'affichage
+  // Gestion de l'affichage
   if (loading) return <p>Chargement...</p>
   if (error) return <p>Erreur : {error}</p>
 
-  // 4️⃣ Affichage des propriétés
+  // Affichage des propriétés
   return (
     <div className="gallery">
       {properties.map((property) => (

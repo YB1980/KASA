@@ -23,29 +23,36 @@
   text-align: center;
 }
 
+.error br {
+  display: none;
+}
+
 @media (max-width: 1023px) {
   .number-error {
-  font-size: 144px;
+    font-size: 144px;
   }
   .error {
     font-size: 27px;
   }
-  .error p{
-    width: 55%;
+  .error br {
+    display: block;
   }
   .error a {
-  font-size: 16px;
+    font-size: 16px;
   }
+  .error p {
+    line-height: 1.4;
+}
 }
 
 @media (max-width: 767px) {
   .number-error {
-  font-size: 96px;
+    font-size: 96px;
   }
   .error {
     font-size: 18px;
   }
   .error a {
-  font-size: 14px;
+    font-size: 14px;
   }
 }

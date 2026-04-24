@@ -45,10 +45,10 @@
     border-radius: 10px;
   }
   .banner::before {
-  border-radius: 10px;
+    border-radius: 10px;
 }
   .banner h1 {
-  font-size: 32px;
+    font-size: 32px;
  }
 }
 
@@ -58,13 +58,25 @@
     font-size: 24px;
   }
   .banner-home {
-  box-shadow: none;
+    box-shadow: none;
 }
 }
 
 @media (max-width : 424px) {
   .banner h1 {
     padding-left: 15px;
-    padding-right: 95px;
+    padding-right: 135px;
+}
+}
+
+@media (max-width : 408px) {
+  .banner h1 {
+    padding-right: 120px;
+}
+}
+
+@media (max-width : 391px) {
+  .banner h1 {
+    padding-right: 106px;
 }
 }
