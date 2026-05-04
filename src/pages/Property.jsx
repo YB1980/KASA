@@ -25,14 +25,14 @@ function Property() {
 
         // si pas de logement → redirection
         if (!data) {
-          navigate('/404')
+          navigate('/*')
         } else {
           setProperty(data)
         }
 
       } catch (error) {
         // si erreur API → redirection
-        navigate('/404')
+        navigate('/*')
       } finally {
         setLoading(false)
       }
