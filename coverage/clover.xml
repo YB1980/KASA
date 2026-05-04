@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1777895464951" clover="3.2.0">
+  <project timestamp="1777895464951" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3" elements="17" coveredelements="17" complexity="0" loc="6" ncloc="6" packages="2" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="Banner.jsx" path="/Users/yoanbreslout/Desktop/OpenClassrooms/Projet_8/KASA/src/components/Banner.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="Collapse.jsx" path="/Users/yoanbreslout/Desktop/OpenClassrooms/Projet_8/KASA/src/components/Collapse.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Banner.css" path="/Users/yoanbreslout/Desktop/OpenClassrooms/Projet_8/KASA/src/styles/Banner.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Collapse.css" path="/Users/yoanbreslout/Desktop/OpenClassrooms/Projet_8/KASA/src/styles/Collapse.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
